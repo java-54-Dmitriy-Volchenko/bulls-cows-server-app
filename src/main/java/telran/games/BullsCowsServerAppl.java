@@ -2,7 +2,7 @@ package telran.games;
 import telran.net.*;
 public class BullsCowsServerAppl {
 
-	private static final int PORT = 5000;
+	private static final int PORT = 5003;
 
 	public static void main(String[] args) {
 		BullsCowsService bullsCows = new BullsCowsMapImpl();
